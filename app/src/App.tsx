@@ -225,14 +225,35 @@ function App() {
           <div className="card">
             <h2 className="card-title">
               <span style={{ display: 'inline-flex', alignItems: 'center' }}>
-                <Info size={18} style={{marginRight: 8}} /> Why so aggressive?
+                <Info size={18} style={{marginRight: 8}} /> How to Use This Calculator
+              </span>
+            </h2>
+            <div style={{fontSize: '0.875rem', lineHeight: '1.6'}}>
+              <ol style={{ paddingLeft: '1.25rem' }}>
+                <li><strong>Set Your Risk Profile:</strong> Adjust the <strong>Risk Aversion</strong> slider. 1 is aggressive (low fear of loss), 10 is very conservative.</li>
+                <li><strong>Enter Your Financials:</strong> Provide your <strong>Current Age</strong> and <strong>Net Worth</strong> (liquid assets you intend to invest).</li>
+                <li><strong>Forecast Your Income:</strong> Edit the <strong>Income Forecast</strong> table. Enter your expected annual pre-tax wages and your projected retirement benefits (e.g., Social Security or pensions).</li>
+                <li><strong>Adjust Market Views:</strong> Tweak <strong>Expected Stock Return</strong> and the <strong>Risk-Free Rate</strong> if you have specific long-term views on the economy.</li>
+              </ol>
+              <p>
+                <strong>The Core Concept:</strong> This calculator treats your future income as a stable "bond." 
+                Because you have this "bond" (your human capital), the model suggests you can be <strong>much more aggressive</strong> 
+                with your actual cash while you are young.
+              </p>
+            </div>
+          </div>
+
+          <div className="card">
+            <h2 className="card-title">
+              <span style={{ display: 'inline-flex', alignItems: 'center' }}>
+                <ShieldCheck size={18} style={{marginRight: 8}} /> Why so aggressive?
               </span>
             </h2>
             <p style={{fontSize: '0.875rem', lineHeight: 1.6}}>
               Standard rules of thumb (like "100 minus age") ignore your most valuable asset: <strong>Human Capital</strong>. 
               Because your future paychecks are relatively stable (bond-like), you can afford to take more risk with your 
               liquid savings while you are young. As you age and your human capital "depletes" into financial wealth, 
-              your allocation naturally shifts toward the Merton baseline.
+              your allocation naturally shifts toward the Merton baseline (the share you'd hold if you had no more income coming in).
             </p>
           </div>
         </main>

@@ -1,0 +1,18 @@
+# Node
+app/node_modules/
+app/dist/
+app/stats.html
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

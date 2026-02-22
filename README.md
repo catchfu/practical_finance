@@ -18,31 +18,9 @@ By accounting for this "implicit bond" holding, the model typically recommends a
 ## Project Structure
 
 - `/app`: The React + TypeScript + Vite web application.
-- `practicalfinance.pdf`: The original research paper.
-- `Practical finance spreadsheet.xlsx`: The original Excel-based implementation.
-- `A Yale Professor’s Investment Formula...pdf`: WSJ article explaining the framework.
 
-## Getting Started
-
-### Web Application
-
-1. Navigate to the app directory:
-   ```bash
-   cd app
-   ```
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Run the development server:
-   ```bash
-   npm run dev
-   ```
-4. Run tests:
-   ```bash
-   npm test
-   ```
+*Note: Original research documents and spreadsheets have been removed to avoid potential licensing issues. Please refer to the official documentation link below.*
 
 ## References
 
-Choi, James J., Canyao Liu, and Pengcheng Liu. "Practical Finance: An Approximate Solution to Lifecycle Portfolio Choice." (2025).
+[Choi, James J., Canyao Liu, and Pengcheng Liu. "Practical Finance: An Approximate Solution to Lifecycle Portfolio Choice." (2025)](https://docs.google.com/document/d/1hykGDl6ZHJmDJmIJ706nErIKg5gWeoTxagnEvpWmuwA/preview)

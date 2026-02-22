@@ -59,7 +59,16 @@ function App() {
     <div className="app-container">
       <header className="header">
         <h1>Practical Finance Calculator</h1>
-        <p>Optimal lifecycle portfolio choice based on the Choi-Liu-Liu framework (Yale University).</p>
+        <p>
+          <a 
+            href="https://docs.google.com/document/d/1hykGDl6ZHJmDJmIJ706nErIKg5gWeoTxagnEvpWmuwA/preview" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            style={{ color: 'inherit', textDecoration: 'underline' }}
+          >
+            Optimal lifecycle portfolio choice based on the Choi-Liu-Liu framework (Yale University)
+          </a>.
+        </p>
       </header>
 
       <div className="main-grid">
